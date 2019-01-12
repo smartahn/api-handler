@@ -1,5 +1,5 @@
 {
-  "name": "api-handler",
+  "name": "api-request-handler",
   "description": "API Request Handler",
   "version": "0.3.0",
   "author": "Junmin Ahn <app.smartahn@gmail.com>",

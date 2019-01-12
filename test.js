@@ -4,7 +4,7 @@ const axios = require('axios');
 const { UnauthorizedError } = require('client-errors');
 const assert = require('assert');
 
-const apiHandler = require('../api-handler');
+const apiHandler = require('./index');
 const baseUrl = 'http://localhost:8080';
 
 const handleResponse = apiHandler.handleResponse;

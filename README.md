@@ -1,11 +1,10 @@
-# api-handler
+# api-request-handler
 
 API Request Handler
 
 ## Installation
-
 ```sh
-$ npm install api-handler
+$ npm install api-request-handler
 ```
 ## Usage
 
@@ -18,13 +17,12 @@ $ npm install api-handler
 - apiHandler.errorMessageProvider = customErrorMessageProvider
 
 ### Example
-
 ```js
 const http = require('http');
 const express = require('express');
 const axios = require('axios');
 
-const apiHandler = require('api-handler');
+const apiHandler = require('api-request-handler');
 const baseUrl = 'http://localhost:8080';
 
 const handleResponse = apiHandler.handleResponse;
